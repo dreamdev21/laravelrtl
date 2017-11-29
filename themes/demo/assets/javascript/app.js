@@ -45,4 +45,6 @@ jQuery(document).ready(function($){
         previousTop = currentTop
         scrolling = false
     }
+
+
 });
