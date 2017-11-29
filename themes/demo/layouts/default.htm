@@ -25,6 +25,8 @@ description = "Default layout"
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
         <link href="{{ 'assets/css/fonts/pe-icon-7-stroke.css'|theme }}" rel="stylesheet">
 
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
         {% styles %}
     </head>
     <body>
@@ -58,8 +60,66 @@ description = "Default layout"
         <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="{{ 'assets/javascript/jquery.rating.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/bootstrap-number-input.js'|theme }}"></script>
+
+
         {% framework extras %}
         {% scripts %}
+        <script type="text/javascript">
+            var $star_rating = $('.star-rating .fa');
+
+            var SetRatingStar = function() {
+                return $star_rating.each(function() {
+                    if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+                        return $(this).removeClass('fa-star-o').addClass('fa-star');
+                    } else {
+                        return $(this).removeClass('fa-star').addClass('fa-star-o');
+                    }
+                });
+            };
+
+            $star_rating.on('click', function() {
+                $star_rating.siblings('input.rating-value').val($(this).data('rating'));
+                return SetRatingStar();
+            });
+
+            SetRatingStar();
+            $(document).ready(function() {
+
+            });
+
+
+        </script>
+        <script>
+            $('#colorful').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+            $('#colorful1').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+            $('#colorful2').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+            $('#colorful3').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+            $('#colorful4').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+            $('#colorful5').bootstrapNumber({
+                downClass: 'danger',
+                upClass: 'success'
+            });
+
+
+        </script>
 
     </body>
 </html>
