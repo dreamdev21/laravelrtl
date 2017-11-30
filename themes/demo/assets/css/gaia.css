@@ -3628,8 +3628,11 @@ body {
 
 .container-about-us {
   background: #ffffff;
-  border-top: 10px solid #070f34;
+  border-top: 10px solid #091036;
   margin-top: -10px; }
+
+.about-us-section {
+  background: #eaeef1; }
 
 .contact-info {
   color: #111535;
