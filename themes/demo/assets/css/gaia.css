@@ -4080,7 +4080,8 @@ hr {
   margin-bottom: 20px;
   color: #ffffff; }
   .cross-container .cross-container-header {
-    background: #070f34; }
+    background: #030c41;
+    height: 100%; }
     .cross-container .cross-container-header .cross-image {
       margin-top: -40px;
       margin-bottom: 10px; }
@@ -4098,6 +4099,9 @@ hr {
 .background-grey {
   background: linear-gradient(180deg, #e7ebee 64%, white 36%);
   padding: 0px; }
+
+.fa-color {
+  color: #00c1ff; }
 
 @media (max-width: 768px) {
   .img-book {
