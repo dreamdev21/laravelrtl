@@ -4321,9 +4321,9 @@ hr {
 .radio-success input[type="radio"]:checked + label::after {
   background-color: #5cb85c; }
 .btn-order-completed{
-  background: #00c1ff;
+  background: #007edd;
   color: #ffffff;
-  border: 2px solid #00c1ff;
+  border: 2px solid #007edd;
   border-radius: 2px;
   height: 30px;
   width: 160px;
@@ -4331,8 +4331,8 @@ hr {
 }
 .btn-order-completed.button:hover{
   background: #ffffff;
-  border: 2px solid #00c1ff;
-  color: #00c1ff;
+  border: 2px solid #007edd;
+  color: #007edd;
 
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -4341,9 +4341,9 @@ hr {
   transition: all 300ms linear;
 }
 .btn-order-finished{
-  background: #00C0FE;
+  background: #00c1ff;
   color: #ffffff;
-  border: 2px solid #00C0FE;
+  border: 2px solid #00c1ff;
   border-radius: 2px;
   height: 30px;
   width: 160px;
@@ -4351,8 +4351,8 @@ hr {
 }
 .btn-order-finished.button:hover{
   background: #ffffff;
-  border: 2px solid #00C0FE;
-  color: #00C0FE;
+  border: 2px solid #00c1ff;
+  color: #00c1ff;
 
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -4361,9 +4361,9 @@ hr {
   transition: all 300ms linear;
 }
 .btn-order-three{
-  background: #67D7FD;
+  background: #67d9ff;
   color: #ffffff;
-  border: 2px solid #67D7FD;
+  border: 2px solid #67d9ff;
   border-radius: 2px;
   height: 30px;
   width: 160px;
@@ -4371,8 +4371,8 @@ hr {
 }
 .btn-order-three.button:hover{
   background: #ffffff;
-  border: 2px solid #67D7FD;
-  color: #67D7FD;
+  border: 2px solid #67d9ff;
+  color: #67d9ff;
 
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -4381,9 +4381,9 @@ hr {
   transition: all 300ms linear;
 }
 .btn-make-reservation{
-  background: #070f34;
+  background: #030c41;
   color: #00c1ff;
-  border: 2px solid #070f34;
+  border: 2px solid #030c41;
   border-radius: 2px;
   height: 40px;
   width: 200px;
@@ -4394,7 +4394,7 @@ hr {
 }
 .btn-make-reservation:hover{
   background: #00c1ff;
-  color: #070f34;
+  color: #030c41;
   border: 2px solid #00c1ff;
   border-radius: 2px;
 
