@@ -3705,7 +3705,7 @@ label.list-group-radio:hover, label.list-group-radio:active {
   margin-bottom: 10px; }
 
 .product-container {
-  background: #070f34;
+  background: #030c41;
   color: #ffffff; }
 
 .product-cart {
@@ -3752,18 +3752,18 @@ label.list-group-radio:hover, label.list-group-radio:active {
   margin-bottom: 20px; }
 
 .invite-more {
-  background: #070f34;
+  background: #030c41;
   color: #00c1ff;
-  border: 2px solid #070f34;
+  border: 2px solid #030c41;
   border-radius: 2px;
-  height: 30px;
-  width: 160px;
+  height: 36px;
+  width: 180px;
   margin-bottom: 10px; }
 
 .invite-more.button:hover {
   background: #00c1ff;
   border: 2px solid #00c1ff;
-  color: #070f34;
+  color: #030c41;
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
   -o-transition: all 300ms linear;
