@@ -142,7 +142,6 @@ a:hover {
   color: #777777; }
 
 .title-modern {
-  font-size: 3.2rem;
   font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
@@ -3604,7 +3603,8 @@ body {
   background: #f5f5f5; }
 
 .login-input::-webkit-input-placeholder {
-  color: orange; }
+  color: black !important;
+  font-weight: 300; }
 
 .modal-logo-png {
   width: 100px;
@@ -4087,5 +4087,53 @@ hr {
   .cross-container .cross-container-body {
     color: #000000;
     padding: 20px; }
+
+@media (max-width: 768px) {
+  .img-book {
+    position: relative !important;
+    zoom: 0.6 !important; }
+
+  .image {
+    height: 44vh !important; }
+
+  .banner-text {
+    margin-top: 8rem; } }
+@media (max-width: 1024px) {
+  .image {
+    height: 44vh !important; }
+
+  .banner-text {
+    margin-top: 8rem; } }
+@media (max-width: 1988px) {
+  .image {
+    height: 60vh !important; }
+
+  .banner-text {
+    margin-top: 8rem !important; } }
+@media (max-width: 420px) {
+  .btn-banner-button {
+    color: #fff;
+    background-color: #3295ff;
+    border-color: transparent;
+    width: 12rem;
+    height: 3rem;
+    margin-top: 1rem; }
+
+  .banner-text {
+    margin-top: 3rem; } }
+@media (max-width: 375px) {
+  .btn-banner-button {
+    color: #fff;
+    background-color: #3295ff;
+    border-color: transparent;
+    width: 8rem;
+    height: 1.5rem;
+    float: left !important;
+    font-size: 8px;
+    margin-top: 1rem;
+    margin-left: 6px; }
+
+  .banner-text {
+    margin-top: 1rem; } }
 
 /*# sourceMappingURL=gaia.css.map */
