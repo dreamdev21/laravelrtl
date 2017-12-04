@@ -1,4 +1,4 @@
-<footer class="footer footer-bigbefore footer-color-black" style="background: #414141">
+<footer class="footer footer-bigbefore footer-color-black" style="background: #414141;">
     <div class="container">
         <div class="row text-center">
             <h1 style="color: white">השאירו פרטים ואנו נדאג לחזור אליכם בהקדם</h1>
@@ -31,11 +31,11 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">םיסרוק</a></li>
+                                <a href="#">םיסרוק</a>
                             <li>
                             <li>
                                 <a href="#">רשק רוצ
-                                </a></li>
+                                </a>
                             <li>
                             <li>
                                 <a href="#" class="btn btn-social btn-facebook btn-simple">
@@ -54,7 +54,7 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">תודוא</a></li>
+                                <a href="#">תודוא</a>
                             <li>
                                 <a href="#">אמגודל רועיש</a>
                             </li>
@@ -88,12 +88,21 @@
             </div>
 
             <div class="col-sm-2">
-                <h2>וגול</h2>
+                <div class="info">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="/"><h2>וגול</h2></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
             </div>
         </div>
     </div>
 </footer>
-<div class="modal fade" id="register" role="dialog">
+<div class="modal fade" id="register" role="dialog" tabindex="-1" >
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -103,7 +112,7 @@
                     <div class="modal-header-logo">
                         <img src="/themes/demo/assets/images/register.png" class="modal-logo">
                     </div>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button class="close btn-close" data-dismiss="modal" aria-label="Close">&times;</button>
                 </div>
                 <div class="modal-body text-center">
 
@@ -182,7 +191,7 @@
                     <div class="modal-header-logo">
                         <img src="/themes/demo/assets/images/contact-us.png" class="modal-logo" style="padding: 10px 0px 10px 10px !important;">
                     </div>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button class="close btn-close" data-dismiss="modal" aria-label="Close">&times;</button>
                 </div>
                 <div class="modal-body text-center">
 
@@ -251,6 +260,7 @@
 
     </div>
 </div>
+<div id="modal-backdrop" class="modal-backdrop-transparent modal-transition"></div>
 <script type="text/javascript">
     function rtl(element)
     {
@@ -258,4 +268,5 @@
             element.setSelectionRange(0,0);
         }
     }
+
 </script>
